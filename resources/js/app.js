@@ -1,32 +1,56 @@
-/**
- * First we will load all of this project's JavaScript dependencies which
- * includes Vue and other libraries. It is a great starting point when
- * building robust, powerful web applications using Vue and Laravel.
- */
+import Animate from './helpers/Animation';
+import './outsourcing';
+import './contact-form'
 
-require('./bootstrap');
+Animate();
+window.addEventListener('scroll', Animate, false);
 
-window.Vue = require('vue');
+document.querySelector('.scroll-to-top').addEventListener('click', goToTop, false);
 
-/**
- * The following block of code may be used to automatically register your
- * Vue components. It will recursively scan this directory for the Vue
- * components and automatically register them with their "basename".
- *
- * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
- */
+function goToTop() {
+  const c = document.documentElement.scrollTop || document.body.scrollTop;
+  if (c > 0) {
+    window.requestAnimationFrame(goToTop);
+    window.scrollTo(0, c - c / 12);
+  }
+}
 
-// const files = require.context('./', true, /\.vue$/i);
-// files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
+const links = [...document.getElementsByClassName('go-to')];
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+links.forEach(link => link.addEventListener('click', scrollToElement, false));
 
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
+function scrollToElement(event) {
+  event.preventDefault();
+  document.getElementById(event.target.dataset.section)
+    .scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+}
 
-const app = new Vue({
-    el: '#app',
+const mobileMenuIcon = document.getElementsByClassName("cm-hamburger")[0];
+const mobileNavWrapper = document.getElementById('mobile-nav');
+const svgDisplay = document.getElementById('display');
+const svgClose = document.getElementById('hide');
+
+function openMobileMenu() {
+  mobileNavWrapper.classList.add('show');
+  svgDisplay.classList.remove('show');
+  svgClose.classList.add('show');
+}
+
+function closeMobileMenu() {
+  mobileNavWrapper.classList.remove('show');
+  svgClose.classList.remove('show');
+  svgDisplay.classList.add('show');
+}
+mobileMenuIcon.addEventListener('click', () => {
+  if (mobileNavWrapper.classList.contains('show')) {
+    closeMobileMenu();
+  } else {
+    openMobileMenu();
+  }
+});
+
+mobileNavWrapper.addEventListener('click', () => {
+  if (mobileNavWrapper.classList.contains('show')) {
+    closeMobileMenu();
+  }
 });

@@ -1,0 +1,24 @@
+.cm-container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 5.625em 0;
+}
+
+@media all and (max-width: 1920px) {
+  .cm-container {
+    width: 80%;
+  }
+}
+
+@media all and (max-width: 1050px) {
+  .cm-container {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .cm-container {
+    max-width: 90%;
+  }
+}

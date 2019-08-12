@@ -1,19 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Varela+Round&subset=latin-ext');
 // Body
 $body-bg: #f8fafc;
 
 // Typography
-$font-family-sans-serif: 'Nunito', sans-serif;
+$font-family-headers: 'Varela Round', sans-serif;
+$font-family-text: "Lato", sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
+$font-color: #242424;
 
 // Colors
 $blue: #3490dc;
 $indigo: #6574cd;
 $purple: #9561e2;
-$pink: #f66d9b;
+$pink: #f66D9b;
 $red: #e3342f;
 $orange: #f6993f;
 $yellow: #ffed4a;
 $green: #38c172;
 $teal: #4dc0b5;
 $cyan: #6cb2eb;
+
+$cm-primary: #F6511D;
+//$cm-primary: #F05424; lighter orange
+//$cm-primary: #ea4335; variant
+$cm-secondary: #00A6ED;
+$cm-gray: #e3eaf3;
+$cm-dark-blue: #001835;
