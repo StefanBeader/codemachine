@@ -7,6 +7,7 @@ use App\Domain\Leads\LeadRepository;
 use App\Http\Requests\ContactMessageRequest;
 use App\Domain\Messages\MessageRepository;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Http\Request;
 
 class MessageController extends Controller
 {
@@ -27,5 +28,10 @@ class MessageController extends Controller
             (new ErrorRepository())->store($e);
             return response(['message' => 'Error occurred'], 500);
         }
+    }
+
+    public function storeEmail(Request $request)
+    {
+        dd($request->all());
     }
 }
