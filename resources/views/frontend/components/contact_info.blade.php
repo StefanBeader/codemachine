@@ -1,7 +1,7 @@
 <div class="info-item">
               <span class="cm-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
-                     id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                     x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
                      xml:space="preserve">
 <g>
 	<g>
@@ -15,7 +15,7 @@
 <div class="info-item">
               <span class="cm-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
-                       id="Capa_1" x="0px" y="0px" viewBox="0 0 473.806 473.806"
+                       x="0px" y="0px" viewBox="0 0 473.806 473.806"
                        style="enable-background:new 0 0 473.806 473.806;" xml:space="preserve">
 <g>
 	<g>
@@ -31,7 +31,7 @@
 <div class="info-item">
               <span class="cm-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
-                       id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                       x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
                        xml:space="preserve">
 <g>
 	<g>
@@ -58,8 +58,8 @@
 <div class="social-networks">
     <h4>Social Networks</h4>
     <div class="social-icons">
-        <a href="https://facebook.com" target="_blank" rel="noreferrer" class="icon">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+        <a href="https://facebook.com" target="_blank" rel="noreferrer" class="icon" title="CodeMachine's Facebook Page">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
                  x="0px" y="0px" viewBox="0 0 96.124 96.123" style="enable-background:new 0 0 96.124 96.123;"
                  xml:space="preserve">
 <g>
@@ -67,8 +67,8 @@
 </g>
 </svg>
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noreferrer" class="icon">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+        <a href="https://linkedin.com" target="_blank" rel="noreferrer" class="icon" title="CodeMachine's Linkedin Page">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
                  x="0px" y="0px" viewBox="0 0 430.117 430.117" style="enable-background:new 0 0 430.117 430.117;"
                  xml:space="preserve">
 <g>
@@ -78,8 +78,8 @@
                 =
 </svg>
         </a>
-        <a href="https://twitter.com" target="_blank" rel="noreferrer" class="icon">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+        <a href="https://twitter.com" target="_blank" rel="noreferrer" class="icon" title="CodeMachine's Twitter Page">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
                  x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
 <g>
     <g>
@@ -88,8 +88,8 @@
 </g>
 </svg>
         </a>
-        <a href="https://instagram.com" target="_blank" rel="noreferrer" class="icon">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+        <a href="https://instagram.com" target="_blank" rel="noreferrer" class="icon" title="CodeMachine's Instagram Page">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
                  x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 <g>
     <g>

@@ -1,8 +1,8 @@
 <footer>
     <div class="cm-container">
         <div class="logo">
-            <a href="">
-                <img src="{{ asset('images/cm-logo-with-name.svg') }}" class="image-responsive" alt="" />
+            <a href="" title="CodeMachine's Home Page">
+                <img src="{{ asset('images/cm-logo-with-name.svg') }}" class="image-responsive" alt="CodeMachine's Logo" />
             </a>
         </div>
         <p>We are software development agency,
