@@ -1,23 +1,23 @@
 <header id="nav">
     <nav class="cm-container">
         <div class="logo">
-            <a href="">
-                <img src="{{ asset('images/cm-logo.svg') }}" class="image-responsive" alt=""/>
+            <a href="" title="CodeMachine home page">
+                <img src="{{ asset('images/cm-logo.svg') }}" class="image-responsive" alt="CodeMachine logo"/>
             </a>
         </div>
         <div class="nav-links">
             <ul class="large-nav">
                 <li>
-                    <a class="go-to" data-section="about" href="#">About</a>
+                    <a class="go-to" data-section="about" title="about section" href="#">About</a>
                 </li>
                 <li>
-                    <a class="go-to" data-section="services" href="#">Services</a>
+                    <a class="go-to" data-section="services" title="services section" href="#">Services</a>
                 </li>
                 <li>
-                    <a class="go-to" data-section="outsourcing" href="#">Outsourcing</a>
+                    <a class="go-to" data-section="outsourcing" title="outsourcing section" href="#">Outsourcing</a>
                 </li>
                 <li>
-                    <a class="go-to" data-section="contact" href="#">Contact</a>
+                    <a class="go-to" data-section="contact" title="contact section" href="#">Contact</a>
                 </li>
             </ul>
             <div class="cm-hamburger">
@@ -54,16 +54,16 @@
             <div class="mobile-nav">
                 <ul>
                     <li>
-                        <a class="go-to" data-section="about" href="#">About</a>
+                        <a class="go-to" data-section="about" title="about section" href="#">About</a>
                     </li>
                     <li>
-                        <a class="go-to" data-section="services" href="#">Services</a>
+                        <a class="go-to" data-section="services" title="services section" href="#">Services</a>
                     </li>
                     <li>
-                        <a class="go-to" data-section="outsourcing" href="#">Outsourcing</a>
+                        <a class="go-to" data-section="outsourcing" title="outsourcing section" href="#">Outsourcing</a>
                     </li>
                     <li>
-                        <a class="go-to" data-section="contact" href="#">Contact</a>
+                        <a class="go-to" data-section="contact" title="contact section" href="#">Contact</a>
                     </li>
                 </ul>
                 @include('frontend.components.contact_info')

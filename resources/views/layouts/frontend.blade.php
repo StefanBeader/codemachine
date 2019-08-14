@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>CodeMachine | Creating unique software solution for your company</title>
-    <meta name="description" content="We are software development agency,
+    <meta name="description" content="CodeMachine is software development agency,
     aimed at creating unique and powerful tools for your business & everyday life.">
 
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">

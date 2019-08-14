@@ -19,7 +19,7 @@ html, body {
   font-family: $font-family-text;
 }
 
-h2 {
+h1, h2 {
   font-size: 3em;
   font-family: $font-family-headers;
   font-weight: 400;
@@ -65,7 +65,7 @@ h4 {
     .call-to-action {
       width: 40%;
       margin-left: 10%;
-      h2 {
+      h1, h2 {
         color: white;
         margin-bottom: 1em;
       }
