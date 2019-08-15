@@ -24,14 +24,18 @@ $services = [
             <h2>Services</h2>
         </div>
         <div class="services-items">
+            @php
+            $delay = 0;
+            @endphp
             @foreach($services as $service)
-            <div class="items animation fade-from-bottom delay-500">
+            <div class="items animation fade-from-bottom {{ $delay !== 0 ? "delay-".$delay : "" }}">
                 <div class="icon">
                     <img src="{{ asset('images/' . $service['icon']) }}" alt="" class="image-responsive" />
                 </div>
                 <h4>{{ $service['title'] }}</h4>
                 <p>{{ $service['body'] }}</p>
             </div>
+            @php($delay += 500)
             @endforeach
         </div>
     </div>
