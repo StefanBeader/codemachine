@@ -1,0 +1,48 @@
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.admin-layout {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 6em 1fr;
+  grid-template-rows: 4.5em 1fr;
+
+  header {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background-color: #00A6ED;
+  }
+
+  aside {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: #fff;
+    position: relative;
+
+    .second-menu {
+      position: absolute;
+      top: 0;
+      right: -400px;
+      width: 400px;
+      height: 100%;
+      background-color: #0b2e13;
+      opacity: 0;
+      transition: opacity .3s;
+
+      &.show {
+        opacity: 1;
+        z-index: 10;
+      }
+    }
+  }
+
+  main {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: black;
+    z-index: 5;
+  }
+
+
+}

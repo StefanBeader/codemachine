@@ -11,8 +11,13 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css');
+mix
+  .js('resources/js/frontend/app.js', 'public/js')
+  .js('resources/js/admin/app.js', 'public/js/admin')
+  .js('resources/js/auth/app.js', 'public/js/auth')
+  .sass('resources/sass/frontend/app.scss', 'public/css')
+  .sass('resources/sass/admin/app.scss', 'public/css/admin')
+  .sass('resources/sass/auth/app.scss', 'public/css/auth');
 
 if (mix.inProduction()) {
   mix.version();
