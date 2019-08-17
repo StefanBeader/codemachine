@@ -236,7 +236,21 @@ header {
     padding: 0;
     display: flex;
     .logo {
-      width: 7.375em;
+      a {
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+
+        img {
+          width: 4.375em;
+        }
+        span {
+          font-size: 2.25em;
+          font-weight: bold;
+          color: $cm-secondary;
+          margin-left: 1rem;
+        }
+      }
     }
     .nav-links {
       flex: 1;
@@ -276,8 +290,24 @@ footer {
   text-align: center;
   padding-top: 5.625em;
   .logo {
+    width: max-content;
     margin: 0 auto;
-    max-width: 18.75em;
+    a {
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      text-decoration: none;
+      color: $cm-secondary;
+      img {
+        max-width: 9.75em;
+        margin: 0 auto;
+      }
+      span {
+        font-size: 2.25em;
+        font-weight: bold;
+        margin-top: 1rem;
+      }
+    }
   }
 
   p {
@@ -521,8 +551,13 @@ footer {
         }
       }
       .logo {
-        width: 6em;
         align-self: center;
+        a {
+          span {
+            margin-left: .75rem;
+            font-size: 1.55em;
+          }
+        }
       }
     }
   }

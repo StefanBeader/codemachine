@@ -55,6 +55,23 @@
   }
 }
 
+@media screen and (max-width: 1050px) {
+  .animation {
+    &.delay-500 {
+      @include delay(1ms)
+    }
+    &.delay-1000 {
+      @include delay(1ms)
+    }
+    &.delay-1500 {
+      @include delay(1ms)
+    }
+    &.delay-2000 {
+      @include delay(1ms)
+    }
+  }
+}
+
 @media screen and (max-width: 550px) {
   .animation {
     &.animate {

@@ -2,7 +2,8 @@
     <nav class="cm-container">
         <div class="logo">
             <a href="" title="CodeMachine's Home Page">
-                <img src="{{ asset('images/cm-logo.svg') }}" class="image-responsive" alt="CodeMachine's Logo"/>
+                <img src="{{ asset('images/logo.svg') }}" class="image-responsive" alt="CodeMachine's Logo"/>
+                <span>CodeMachine</span>
             </a>
         </div>
         <div class="nav-links">

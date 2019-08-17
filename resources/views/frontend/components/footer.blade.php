@@ -2,7 +2,8 @@
     <div class="cm-container">
         <div class="logo">
             <a href="" title="CodeMachine's Home Page">
-                <img src="{{ asset('images/cm-logo-with-name.svg') }}" class="image-responsive" alt="CodeMachine's Logo" />
+                <img src="{{ asset('images/logo-footer.svg') }}" class="image-responsive" alt="CodeMachine's Logo" />
+                <span>CodeMachine</span>
             </a>
         </div>
         <p>We are software development agency,
