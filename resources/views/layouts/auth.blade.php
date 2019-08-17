@@ -16,7 +16,9 @@
 <div class="wrapper">
     <div class="auth-layout">
         <main class="main">
-            @yield('main')
+            <div class="form-holder">
+                @yield('main')
+            </div>
         </main>
     </div>
 </div>

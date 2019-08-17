@@ -1,0 +1,18 @@
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import "../variables";
+
+main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: $cm-gray;
+
+  .form-holder {
+    width: 500px;
+    background-color: white;
+    padding: 2em;
+  }
+}
