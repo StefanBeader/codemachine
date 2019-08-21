@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>CodeMachine | Admin Panel</title>
 
@@ -15,9 +16,14 @@
 <body>
 <div class="wrapper">
     <div class="admin-layout">
-        <header class="top"></header>
+        <header class="top">
+            @include('admin.components.header')
+        </header>
         <aside class="side-menu">
-            <div class="second-menu"></div>
+            {{--@include('admin.components.sidenav')--}}
+            <div class="second-menu">
+                <ul class="second-level"></ul>
+            </div>
         </aside>
         <main class="main">
             @yield('main')

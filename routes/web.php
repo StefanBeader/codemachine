@@ -40,4 +40,9 @@ Route::post('/storeEmail', 'MessageController@storeEmail');
 
 Route::middleware(['auth'])->group(function () {
     Route::get('/dashboard', 'DashboardController@index');
+    Route::get('/getSecondLevelLinks', 'MenuController@getSecondLevelLinks');
+
+    Route::resource('links', 'LinkController');
+    Route::resource('menu', 'MenuController');
+
 });

@@ -1,0 +1,29 @@
+.side-menu {
+  .first-level {
+    li {
+      margin-top: 1em;
+      a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+
+        .icon {
+          font-size: 2em;
+        }
+      }
+    }
+  }
+  .second-level {
+    padding: 1em 2em;
+    a {
+      display: block;
+      color: white;
+      font-size: 1.5em;
+      border-radius: 6px;
+      background-color: lighten($admin-primary, 5);
+      padding: 5px 10px;
+    }
+  }
+}
