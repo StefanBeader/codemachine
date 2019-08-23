@@ -9,21 +9,21 @@
     &.fade-from-left {
       animation-timing-function: cubic-bezier(.17,1.18,.45,1.46);
       animation-name: fade-from-left;
-      animation-duration: 2s;
+      animation-duration: 1.5s;
       animation-fill-mode: forwards;
     }
 
     &.fade-from-right {
       animation-timing-function: cubic-bezier(.17,1.18,.45,1.46);
       animation-name: fade-from-right;
-      animation-duration: 2s;
+      animation-duration: 1.5s;
       animation-fill-mode: forwards;
     }
 
     &.fade-from-bottom {
       animation-timing-function: cubic-bezier(.17,1.18,.45,1.46);
       animation-name: fade-from-bottom;
-      animation-duration: 2s;
+      animation-duration: 1.5s;
       animation-fill-mode: forwards;
     }
 
